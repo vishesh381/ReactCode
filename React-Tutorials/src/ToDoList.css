@@ -1,0 +1,68 @@
+.app{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: large;
+  font-weight: bold;
+  align-items: center;
+  text-align: center;
+}
+
+.box{
+  border: 2px solid black;
+  border-radius: 2%;
+  max-width: 800px;
+  max-height: 600px;
+  width: 80%;
+  padding: 20px;
+  background-color: antiquewhite;
+}
+.input-section{
+    display: flex;
+  width: 100%;
+  border-radius: 40px;
+  overflow: hidden; /* Rounded container with no overflow bleed */
+  background-color: #f1f1f1;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  gap: 10px;
+}
+
+.input-section input {
+  flex: 1;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 0;
+  outline: none;
+  font-size: 16px;
+  background-color: transparent;
+}
+
+.input-section button {
+  background-color: #ff5c5c;
+  color: white;
+  padding: 12px 40px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 40px;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+li {
+  list-style-type: circle; /* or disc, square, etc */
+}
+
+li::marker {
+  font-size: 30px;  /* increase bullet size */
+  color: black;       /* optional: change bullet color */
+}
+.edit-btn,.delete-btn{
+  background-color: #ff5c5c;
+  color: white;
+  margin: 1px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 40px;
+  padding: 8px 30px;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}

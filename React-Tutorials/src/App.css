@@ -1,0 +1,26 @@
+/* .app{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: large;
+  font-weight: bold;
+  align-items: center;
+  text-align: center;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+.box{
+  border: 2px solid black;
+  border-radius: 2%;
+  max-width: 800px;
+  max-height: 600px;
+  padding: 20px;
+}
+.input-section {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+} */

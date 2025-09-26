@@ -1,0 +1,40 @@
+.connect4-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(7, 60px);
+  grid-template-rows: repeat(6, 60px);
+  gap: 5px;
+  background: #0077b6;
+  padding: 10px;
+  border-radius: 15px;
+  margin: 20px auto;
+  width: fit-content;
+}
+
+.cell {
+  width: 60px;
+  height: 60px;
+  background: #90e0ef;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.disc {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.disc.X {
+  background: red;
+}
+
+.disc.O {
+  background: yellow;
+}
